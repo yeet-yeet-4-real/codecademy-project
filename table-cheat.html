@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home-styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CheatSheet</title>
+</head>
+<body>
+    <main id="main">
+        <header id="navbar">
+            <div class="nav">
+                <!-- <h1>HTML & CSS CheatSheet</h1> -->
+                <img src="./img/141-1415510_psd-to-html-and-css3-html-css.png" alt="html_css">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#start">Tables</a></li>
+                    <li><a href="#attr">Attributes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- HTML Section -->
+        <div class="heading">
+            <h1>HTML Tables CheatSheet</h1>
+        </div>
+        <section id="html-sect">
+            <h2>Table elements</h2>
+            <article class="article article-1" id="start">
+                <h3>Tables</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;table&gt;</td>
+                            <td>Table</td>
+                            <td>This element is used to represent a 2-dimentional table of rows and columns</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Table head</td>
+                            <td>Defines and separates the headings from the rest of the table</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tbody&gt;</td>
+                            <td>Table body</td>
+                            <td>The table body element will contain all table data other than the table heading or table footer, this contains the table row elements</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;tr&gt;</td>
+                            <td>Table row</td>
+                            <td>The table row elememt is used to add rows to the table before adding data and headings</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;td&gt;</td>
+                            <td>Table data</td>
+                            <td>This element can be nested in a table row element and is used to add data to a table</td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </article>
+            <h2 id="attr">Attributes</h2>
+            <article class="article article-2">
+                <article>
+                    <h3>Colspan</h3>
+                    <p>This attribute indicates the number of columns a particular cell should span in a table</p>
+                    <p>Example:</p><br/>
+                    <p>&lt;td colspan="2"&gt;Table cell spans two columns&lt;/td&gt;</p>
+                    <table>
+                        <tr>
+                            <td colspan="2">Table cell spans two columns</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                    </table>
+                </article>
+                <article>
+                    <h3>Rowspan</h3>
+                    <p>This particular attribute indicates the number of rows a particular cell should span</p>
+                    <p>Example:</p><br/>
+                    <p>&lt;td rowspan="2"&gt;Table cell spans two rows&lt;/td&gt;</p>
+                    <table>
+                        <tr>
+                            <td rowspan="2">Table cell spans two rows</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                    </table>
+                </article>
+            </article>
+            <div class="dev">
+                <div>
+                    <a href="table-cheat.html" class="btn">Back To Top</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>A project by <a href="https://www.codecademy.com">codecademy</a></p>
+        <p>Developed by: <strong>Nathan Lloyd</strong></p>
+    </footer>
+</body>
+</html>

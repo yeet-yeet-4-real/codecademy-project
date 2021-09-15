@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./home-styles.css">
+    <title>HTML5 CheatSheet</title>
+</head>
+<body>
+    <main id="main">
+        <header id="navbar">
+            <div class="nav">
+                <!-- <h1>HTML & CSS CheatSheet</h1> -->
+                <img src="./img/141-1415510_psd-to-html-and-css3-html-css.png" alt="html_css">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#content">HTML</a></li>
+                    <li><a href="#semantics">Semantic HTML</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="index">
+            <h1>HTML Elements</h1>
+            <article id="about" class="html-about">
+                <h2>Welcome to the HTML cheatsheet</h2>
+            </article>
+            <section class="information">
+                <h2 id="content">Content</h2>
+                <article class="block">
+                    <div class="info">
+                        <p>The content of an HTML element is all the information between the opening and closing tags of an element</p>
+                        <p>This includes text, video, images as well as gifs, but does not include the tags, the information with the tags together make up an element</p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/html_content.jpeg" alt="example">
+                    </div>
+                </article>
+                <hr/>
+                <h2>Structure</h2>
+                <article class="block">
+                    <div class="info">
+                        <p>HTML is a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</p>
+                        <p>As depicted in the given example, every HTML document has a similar structure, which gives the website that users see its structure.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/html_struct.png" alt="example-2">
+                    </div>
+                </article>
+                <hr/>
+                <h2>Attributes</h2>
+                <article class="block block-2">
+                    <div class="info">
+                        <p>HTML attributes are values added to the opening tag of an element to change or configure the element's default style or behaviour.</p>
+                        <p>In the example, we are giving the &lt;p&gt; (paragraph) element a unique identifier using the id attribute and changing the color of the default text using the style attribute.</p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/p_attr.png" alt="example-2">
+                    </div>
+                </article>
+            </section>
+            <br/>
+            <h2>Semantic HTML</h2>
+            <br/>
+            <section class="tag">
+                <section class="information">
+                    <h2 id="semantics">Non Semantic HTML</h2>
+                    <article class="block block-1">
+                        <div class="info">
+                            <p>Non semantic HTML makes it a bit harder to read your code, as well as makes it not so accessible</p>
+                            <p>It can be a disadvantage to any other developers reading your code, as they might spend some time getting familiar with your code.</p>
+                            <p>Although using non semantic HTML is not illegal, it is advised to try to use semantic HTML where you can to help not only with readability but accessability, as well as SEO.</p>
+                        </div>
+                        <div class="img">
+                            <img src="./img/non-semantic.png" alt="image">
+                        </div>
+                    </article>
+                    <hr/>
+                    <h2>Semantic HTML</h2>
+                    <article class="block  block-2">
+                        <div class="info">
+                            <p>Semantic HTML introduces meaning in to the code we write, as well as makes the website accessible, so software such as screen readers are capable of identifying parts of the html document</p>
+                            <p>Semantic HTML also helps make your code more readable so that you, as well as other developers reading your code do have an easier time.</p>
+                        </div>
+                        <div class="img">
+                            <img src="./img/semantic_html.png" alt="semantic_html">
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>A project by <a href="https://www.codecademy.com">codecademy</a></p>
+        <p>Developed by: <strong>Nathan Lloyd</strong></p>
+    </footer>
+</body>
+</html>

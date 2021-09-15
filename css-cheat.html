@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./home-styles.css">
+    <title>CSS CheatSheet</title>
+</head>
+<body>
+    <main id="main">
+        <header id="navbar">
+            <div class="nav">
+                <!-- <h1>HTML & CSS CheatSheet</h1> -->
+                <img src="./img/141-1415510_psd-to-html-and-css3-html-css.png" alt="html_css">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="html-cheat.html">HTML</a></li>
+                    <li><a href="css-cheat.html">CSS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="index">
+            <h1>CSS CheatSheet</h1>
+            <section id="about">
+                <div class="title">
+                    <h2>This CSS Cheat sheet covers some CSS</h2>
+                </div>
+                <article>
+                    <h2>CSS Selectors</h2>
+                    <p>What are CSS selectors, and how they are initialised</p>
+                </article>
+                <article>
+                    <h2>Declarations/Declaration blocks</h2>
+                    <p>What are declaration blocks, and what goes inside these declaration blocks</p>
+                </article>
+                <article>
+                    <h2>Properties & Values</h2>
+                    <p>What properties and values are</p>
+                    <p>How properties and values are related and how they affect HTML elements</p>
+                </article>
+            </section>
+            <section class="information">
+                <h2>Selectors</h2>
+                <article class="block">
+                    <div class="info">
+                        <p>CSS selectors select any particular HTML element type, class or id attribute</p>
+                        <p>Selectors that precede with a dot (.) select elements with a particular class</p>
+                        <p>Example:- <strong>.class-selector { }</strong></p>
+                        <p>Selectors that precede with a hash (#) select element with a particular id</p>
+                        <p>Example:- <strong>#id-selector { }</strong></p>
+                        <p>Lastly, selectors that are initialised with HTML element tags such as h1, or p tags etc, are type selectors</p>
+                        <p>Example:- <strong>h1 { }</strong></p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/selectors.png" alt="css_selectors">
+                    </div>
+                </article>
+                <hr/>
+                <h2>Declarations/Declaration blocks</h2>
+                <article class="block">
+                    <div class="info">
+                        <p>A CSS declaration lies within the declaration block, and consists of the propery and value which are shown just below</p>
+                        <p>Declaration blocks are initialised using the curly braces({ }), and everything in-between is where the magic happens</p>
+                        <p>Declaration example:- 
+                            <code>
+                                <p>#selector {<br/>
+                                &emsp;&emsp;&emsp;property: value;<br/>
+                                }
+                                </p>
+                            </code>
+                            </p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/declaration.png" alt="declaration">
+                    </div>
+                </article>
+                <hr/>
+                <h2>Properties & Values</h2>
+                <article class="block">
+                    <div class="info">
+                        <p>Properties and values are in charge of how an element looks and in some cases how it reacts to basic user interaction</p>
+                        <p>An example of a property and value working together:-
+                            <code>
+                                <p>
+                                    #selector {<br/>
+                                    &emsp;&emsp;&emsp;color: blue;<br/>
+                                }
+                                </p>
+                            </code>
+                        </p>
+                    </div>
+                    <div class="img">
+                        <img src="./img/properties.png" alt="properties">
+                    </div>
+                </article>
+            </section>
+        </section>
+        <footer class="footer">
+            <p>A project by <a href="https://www.codecademy.com">codecademy</a></p>
+            <p>Developed by: <strong>Nathan Lloyd</strong></p>
+        </footer>
+        </main>
+</body>
+</html>
